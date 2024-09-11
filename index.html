@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">Gerenciamento de Usuários</h1>
+
+    <!-- Formulário de cadastro -->
+    <form id="userForm" class="mb-4">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite o nome" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite o email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Cadastrar Usuário</button>
+    </form>
+
+    <!-- Lista de usuários -->
+    <h2>Lista de Usuários</h2>
+    <ul id="userList" class="list-group"></ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
