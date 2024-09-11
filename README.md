@@ -46,6 +46,7 @@ frontend/
 Certifique-se de que o backend está rodando em `http://localhost:5000` para que o frontend funcione corretamente. Caso tenha dúvidas ou problemas, entre em contato!
 
 
+* [URL Repositorio backend](https://github.com/fgfrigo/MVP_Backend)
 
 @ffrigo 2024 #MVP_FrontEnd
 
